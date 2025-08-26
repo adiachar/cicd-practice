@@ -1,0 +1,10 @@
+name: my_first_workflow
+
+on: push
+
+jobs:
+  job_1: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: testing sum function
+        run: npm test
